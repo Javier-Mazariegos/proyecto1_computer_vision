@@ -117,4 +117,6 @@ if(len(sys.argv) >= 2):
         img = cv.cvtColor(img,cv.COLOR_BGR2RGB)
         imgPreProcesamiento(img_path)
     else:
-        print("Debe de ingresar todos los parametros: proyecto1_Javier_Mazariegos.py --p ./imagenes/images108.jpg")
+        print("Debe de ingresar todos los parametros: detector.py --p ./imagenes/images108.jpg")
+else:
+        print("Debe de ingresar todos los parametros: detector.py --p ./imagenes/images108.jpg")
